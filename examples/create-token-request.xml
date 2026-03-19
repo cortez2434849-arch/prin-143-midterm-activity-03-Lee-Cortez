@@ -1,4 +1,10 @@
-<root xmlns="https://www.example.com"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://www.example.com ../schemas/create-token-request.xsd">
-</root>
+<CreateTokenRequest xmlns="https://www.example.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://www.example.com ../schemas/create-token-request.xsd">
+
+  <CreditCard>
+    <Account>1234567890123456</Account>
+    <CardHolderName>John Doe</CardHolderName>
+    <ExpirationDate>2026-12</ExpirationDate>
+  </CreditCard>
+</CreateTokenRequest>
